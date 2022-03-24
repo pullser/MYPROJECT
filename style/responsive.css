@@ -1,0 +1,127 @@
+@media screen and (max-width: 1239px) {
+  .nav-list {
+    display: none !important;
+  }
+  .openbar {
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    transform: translateX(-50%, -50%);
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+  .heightsize {
+    overflow: hidden;
+    margin-bottom: 300px !important;
+  }
+  .burgerbar {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+  .burger {
+    position: relative;
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .content-list {
+    gap: 80px;
+  }
+  .project-purpose {
+    font-size: 27px;
+  }
+  .learn-card-list {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content-list {
+    gap: 55px;
+  }
+  .title-list h2 {
+    font-size: 30px;
+  }
+  .title-list h1 {
+    font-size: 42px;
+  }
+  .title-list p {
+    font-size: 16px;
+  }
+  .content-btn a {
+    padding: 14px 54px;
+  }
+  .right-content img {
+    width: 500px;
+  }
+  .footer {
+    padding: 94px 15px 0 22px;
+  }
+  .information-aboutl-ist {
+    margin-top: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .social-list {
+    flex-direction: column;
+    gap: 0;
+  }
+  .for-company-info {
+    margin-top: 0;
+  }
+  .social-follow {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .content-list {
+    flex-wrap: wrap;
+  }
+  .hero {
+    height: 700px;
+  }
+  .title-list {
+    align-items: center;
+  }
+  .left-content {
+    align-items: center;
+  }
+  .content-btn {
+    width: fit-content;
+  }
+  .jane-review {
+    gap: 6px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .right-content {
+    width: 350px;
+  }
+  .right-content img {
+    width: 100%;
+  }
+  .learn-card-list {
+    justify-content: center;
+  }
+  .right-hexagon img {
+    width: 100%;
+  }
+  .left-hexagon img {
+    width: 100%;
+  }
+  .image-for-company {
+    width: 150px;
+  }
+  .image-for-company img {
+    width: 100%;
+  }
+  .company-description {
+    font-size: 15px;
+  }
+}
