@@ -59,6 +59,9 @@
   .right-content img {
     width: 500px;
   }
+  .inputbox input {
+    padding: 25px 80px 25px 25px;
+  }
   .footer {
     padding: 94px 15px 0 22px;
   }
@@ -111,6 +114,13 @@
   }
   .right-hexagon img {
     width: 100%;
+  }
+  .inputbox input {
+    padding: 25px 25px 25px 25px;
+    font-size: 16px;
+  }
+  .inputbox label {
+    padding: 22px 28px;
   }
   .left-hexagon img {
     width: 100%;
