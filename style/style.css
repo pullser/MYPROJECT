@@ -13,7 +13,7 @@
 }
 /* js */
 .blacks {
-  background-color: #000;
+  background-color: grey;
 }
 li {
   list-style: none;
@@ -559,11 +559,20 @@ a {
 /* %%%%%%%%%%%%% */
 /* Footer START */
 /* %%%%%%%%%%%%% */
+.footerimg {
+  min-height: 350px;
+  max-width: 100%;
+  margin-top: 97px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
 .footer {
-  background: url(/img/footer-image.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  z-index: 111;
   max-width: 100%;
   margin-top: 97px;
   height: 350px;

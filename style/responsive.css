@@ -134,4 +134,7 @@
   .company-description {
     font-size: 15px;
   }
+  .nav-icon-cont {
+    padding: 15px 30px 15px 10px;
+  }
 }
