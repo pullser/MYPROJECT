@@ -560,7 +560,7 @@ a {
 /* Footer START */
 /* %%%%%%%%%%%%% */
 .footer {
-  background-image: url(./img/footer-image.png);
+  background: url(/img/footer-image.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
