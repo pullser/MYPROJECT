@@ -30,6 +30,7 @@ randomBtn.addEventListener("click", function () {
   newImage.setAttribute("src", `${personObj[0].image[random()]}`);
   image_container.appendChild(newImage);
 });
+
 function random() {
   return Math.floor(Math.random() * 3);
 }
